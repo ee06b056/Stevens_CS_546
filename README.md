@@ -2,5 +2,3 @@
 Code of CS546 in Stevens
 
 add another line in readme file.
-
-test line of commit
