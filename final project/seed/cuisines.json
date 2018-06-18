@@ -1,0 +1,195 @@
+[
+    {
+        "name": "The Hot Candied Sweet Potatoes",
+        "url": "../public/images/suger_sweet_patatoes.jpg",
+        "area": "lu",
+        "ingredients": ["sweet potatoes","suger","peanut oil"],
+        "steps": [
+            "Cut sweet potatoes into uniform-sized hob blocks.",
+            "Fry sweet patatoes with peanut oil to golden brown.",
+            "Melt suger with peanut oil.",
+            "Mix melted suger with fried sweet patatos."
+        ]
+    },
+    {
+        "name": "Braised Intestines in Brown Sauce",
+        "url": "../public/images/braised_intestine.jpg",
+        "area": "lu",
+        "ingredients": ["pig intestine", "lard", "pepper oil","salt", "wine","shallot","ginger","garlic","parsley"],
+        "steps": [
+            "Clean entirely the pig intestine.",
+            "nest smaller intestine with biger one to three or more layers.",
+            "Boil nested intestine with hot water.",
+            "Cut boiled intestine into blocks",
+            "Fry cutted intestine with suger, ginger, cinnamon, white pepper."
+        ]
+    },
+    {
+        "name": "Kung Pao chicken",
+        "url": "../public/images/kung_pao_chicken.jpg",
+        "area": "chuan",
+        "ingredients": ["chicken", "chili", "peanut"],
+        "steps": [
+            "Cut chichen breasts into small pieces.",
+            "Marinate sliced chicken breasts with wine, oil, white pepper and salt for 10 minutes.",
+            "Fry marinated chicken until chicken turn to white.",
+            "Put dry hot pepper and onion into chicken for fry.",
+            "Mix fried chicken with peanuts."
+        ]
+    },
+    {
+        "name": "Mapo Tofu",
+        "url": "../public/images/mapo_tofu.jpg",
+        "area": "chuan",
+        "ingredients": ["tofu", "ground beef"],
+        "steps": [
+            "Slice tofu into small pieces.",
+            "Soap sliced tofu into water with some salt for 15 minutes.",
+            "Fry ground beef with oil and pixian douban untill fully cooked.",
+            "Put tofu into pot mix with fried beef and other seasons."
+        ]
+    },
+    {
+        "name": "White Cut Chicken",
+        "url": "../public/images/white_cut_chicken.jpg",
+        "area": "yue",
+        "ingredients": ["chicken", "shallot", "ginger"],
+        "steps": [
+            "Clear entirely whole chicken.",
+            "Boil chicken with cold water and ginger.",
+            "Turn off fire 2 minutes after the water start to boil.",
+            "Waite for half hour then get out the whole chicken.",
+            "Brush sesame oil on cold chicken."
+        ]
+    },
+    {
+        "name": "Roast Goose",
+        "url":"../public/images/roast_goose.jpg",
+        "area": "yue",
+        "ingredients": ["goose", "ginger", "wine"],
+        "steps": [
+            "Clan entirely whole goose.",
+            "Mix suger, salt, pepper, MSG, giner powder, licorice powder, seafood sauce, sesame paste, fuel consumption and soybean sauce to make roast goose sauce.",
+            "Brush roash goose sauce onto cleaned goose.",
+            "Roast marinated goose with 390 F for 45 minutes."
+        ]
+    },
+    {
+        "name": "Stinky Mandarin Fish",
+        "url":"../public/images/stinky_mandarin_fish.jpg",
+        "area": "hui",
+        "ingredients": ["marinated fish", "stinky tofu", "bamboo shoots"],
+        "steps": [
+            "Fry marinated squid both sides.",
+            "Fry groud pork, bamboo shots, groud ginger and groud garlic.",
+            "Mix fish with pork, bamboo and wine, soybean sauce."
+        ]
+    },
+    {
+        "name": "Wenzhen Bamboo Shoots",
+        "url": "../public/images/wenzhen_bamboo_shoots.jpg",
+        "area": "hui",
+        "ingredients": ["bamboo shoots", "ham", "shiitake mushroom"],
+        "steps": [
+            "Slice bamboo shoots to blocks.",
+            "Boil bamboo shots with ham for 20 minutes.",
+            "Put shiitake mushroom into the pot and boil for 5 minutes."
+        ]
+    },
+    {
+        "name": "Brine shrimp",
+        "url":"../public/images/brine_shrimp.jpg",
+        "area": "min",
+        "ingredients": ["shrimp"],
+        "steps": [
+            "Clean shrimp, remove the shrimp line.",
+            "Boil shrimp using hot water with ginger.",
+            "Server cooked shrimp with vineger and soybean sauce."
+        ]
+    },
+    {
+        "name": "Fu Zhou Fish Ball",
+        "url":"../public/images/fuzhou_fish_ball.jpg",
+        "area": "min",
+        "ingredients": ["fish stuffing", "pork stuffing", "egg"],
+        "steps": [
+            "Mix fish stuffing with salt, water, sweet patatoes powder and fish sauce.",
+            "Make the fillings using pork stuffing, soybean sauce and suger.",
+            "Make the fish ball using fish stuffing with fillings inside.",
+            "Boil the fish bass with hot water untill full cooked."
+        ]
+    },
+    {
+        "name": "Yanchen Qiao Ball",
+        "url":"../public/images/yanchen_qiao_ball.jpg",
+        "area": "su",
+        "ingredients": ["pork belly", "water chestnut", "mushroom"],
+        "steps": [
+            "Groud pork belly to stuffing.",
+            "Mix pork stuffing with egg, starch, pepper powder, salt and ginger garlic.",
+            "Make big balls with the mix stuffing.",
+            "Fry the balls to fully cooked.",
+            "Make special sauce using oil, water and Teriyaki sauce.",
+            "Put special onto cooked meat ball."
+        ]
+    },
+    {
+        "name": "Three Layer Ducks",
+        "url":"../public/images/three_layer_duck.jpg",
+        "area": "su",
+        "ingredients": ["duck", "wild duck", "pigeon"],
+        "steps": [
+            "Clean entirely ducks and pigeon.",
+            "Remove the bones of ducks and pigon.",
+            "Put pigeon inside wild duck together mushroom and ham slices.",
+            "Put the wild duck into duck.",
+            "Boil the duck using hot water with ginger, mushroom, ham and bamboo shoots slices."
+        ]
+    },
+    {
+        "name": "Chop Bell Pepper Fish Head",
+        "url":"../public/images/chop_pepper_fish_head.jpg",
+        "area": "xiang",
+        "ingredients": ["bell pepper", "fish head"],
+        "steps": [
+            "Marinate fish head with pepper, oil, salt for 10 minutes.",
+            "Steam marinated fish head with chopped bell pepper for 2 minutes.",
+            "Pour boiled oil on steamed fish head."
+        ]
+    },
+    {
+        "name": "Fried Pork with Chilli",
+        "url": "../public/images/fried_pork_chilli.jpg",
+        "area": "xiang",
+        "ingredients": ["pork belly", "chili","garlic"],
+        "steps": [
+            "Boil pork belly for 5 minutes.",
+            "Slice cooked pork belly to slices.",
+            "Fry pork slices with hot pepper, garlic and soybean."
+        ]
+    },
+    {
+        "name": " Shelled Fresh Shrimps Cooked with Longjing Tea",
+        "url":"../public/images/longjing_tea_shrimp.jpg",
+        "area": "zhe",
+        "ingredients": ["shrimp", "longjing tea"],
+        "steps": [
+            "Make tea using longjing tea, keep the tea leaves.",
+            "Clean the shrimp, remove crust.",
+            "Fry shrimp untill cooked.",
+            "Fry shrimp with tea leaves."
+        ]
+    },
+    {
+        "name": "Fish Cooked in Vinegar Gravy",
+        "url":"../public/images/fish_vinegar_gravy.jpg",
+        "area": "zhe",
+        "ingredients": ["grass carp", "vinegar"],
+        "steps": [
+            "Clean entirely the grass carp.",
+            "Boil carp with ginger and wine.",
+            "Use another pot to fry ginger, wine and vineger wit oil to make special sauce.",
+            "Pour special sauce onto boiled fish."
+        ]
+    }
+]

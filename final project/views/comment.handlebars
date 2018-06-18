@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Tang Court</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link href="../public/stylesheets/single.css" rel="stylesheet" type="text/css" />
+    <script src="../public/javascripts/jquery-3.3.1.min.js"></script>
+
+    <script>
+        $(function () {
+            $("#send_comment").click(function (e) {
+                e.preventDefault();
+                var data = {
+
+                    comment: $("#msg").val()
+                };
+
+
+                $.ajax({
+                    url: "/insertComment",
+                    type: "post",
+                    data: data,
+                    success: function (data) {   
+                        let Uname = $("<strong>" + data.user_name + "</strong>");
+                        let Cname = $("<p>" + data.comment + "</p>");
+                        $("#append").append(Uname, Cname);
+                    }
+                    
+                });
+
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <!--  Free CSS Template by TemplateMo.com  -->
+    <div id="templatemo_container">
+        <div id="templatemo_header">
+            <div id="site_title"></div>
+        </div>
+
+        <div id="templatemo_menu">
+             <ul>
+        <li ><strong><a href="/">Home</a></strong></li>
+            <li ><strong><a href="contact">contact us</a></strong></li>
+            <li ><strong><a href="login">login/sign up</a></strong></li>
+            <li ><strong><a href="logout">logout</a></strong></li>
+                <li class="current">
+                    <h2 id="username">{{mark}}</h2>
+                </li>
+            </ul>
+            <form method="POST" action="search">
+                <input name="factor" type="text" placeholder="search by ingredients!">
+                <input type="submit" value="search" />
+            </form>
+        </div>
+
+        <div id="templatemo_top_dishes">
+
+            <h1>Comment</h1>
+            {{#factor}}
+            <ul>
+                <li><img src="{{url}}" alt="image" /></li>
+                <li>
+                    <h2>{{name}}({{area}})</h2>
+                </li>
+
+            </ul>
+            <p> ingredients:</p>
+           
+            <ul>
+            {{#each ingredients}}
+                <li>{{this}}</li>
+            {{/each}}
+            </ul>
+            
+            <p>Steps:</p>
+            
+            <ol>
+            {{#each steps}}
+                <li>{{this}}</li>
+                {{/each}}
+            </ol>
+             {{/factor}}
+            <div class="comment">
+                <Strong>Weclcome</Strong>
+                <p>
+                    comment area
+                </p>
+            </div>
+            {{#comts}}
+
+            <div class="comment">
+                <Strong>{{user_name}}</Strong>
+                <p>
+                    {{comment}}
+                </p>{{/comts}}
+            </div>
+
+            <div id="append">
+                <Strong></Strong>
+                <p>
+
+                </p>
+            </div>
+<div class="comment_area">
+            <textarea id="msg" cols="112" rows="10"></textarea>
+            <button id="send_comment" type="button">comment</button>
+        </div>
+
+
+        </div>
+       
+    </div>
+
+ 
+
+
+    <div class="cleaner">&nbsp;</div>
+    
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+<h1 {{#if isPalindromes}} class="success" {{else}} class="failure" {{/if}}>The Palindrome Results!</h1>
+<main>
+    {{#if isPalindromes}}
+    <p class="success">{{rawText}}</p>
+    <p class="success">The text is palindrome.</p>
+    {{else}}
+    <p class="failure">{{rawText}}</p>
+    <p class="failure">The text is not palindrome.</p>
+    {{/if}}
+    <a href="/static/doc/index.html">Try another palindrome</a>
+</main>

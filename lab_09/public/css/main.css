@@ -1,0 +1,43 @@
+h1 {
+    color: dimgray;
+    font-size: 3em;
+    border: 1px solid black;
+}
+h2 {
+    color: aqua;
+    font-size: 2em;
+}
+header {
+    color: red;
+    text-shadow: 1px 1px 1px black;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(0,0,0,0.1));
+    padding: 3px;
+    text-align: center;
+    box-shadow: inset 2px 2px 5px rgba(0,0,0,0.5), inset -2px -2px 5px rgba(255,255,255,0.5);
+}
+p {
+    font-size: 1em;
+}
+form {
+    width: 400px;
+    border: 1px solid #CCC;
+}
+textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+button {
+    padding-left: 10px;
+    margin-left: .5em;
+}
+footer {
+    text-decoration: underline;
+}
+.is-palindrome {
+    color:#0000FF;
+}
+.not-palindrome {
+    color: #FF0000;
+}

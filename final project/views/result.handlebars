@@ -1,0 +1,75 @@
+<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Tang Court</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="../public/stylesheets/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<!--  Free CSS Template by TemplateMo.com  --> 
+<div id="templatemo_container">
+	<div id="templatemo_header">
+    	<div id="site_title"></div>
+    </div>
+    
+    <div id="templatemo_menu">
+        <ul>
+        	<li ><strong><a href="/">Home</a></strong></li>
+            <li><strong><a href="contact">contact us</a></strong></li>
+            <li ><strong><a href="login">login/sign up</a></strong></li>
+        </ul>
+        <form method="POST" action="search">
+              <input name="factor" type="text" placeholder="search by ingredients!"><input type="submit" value="search" />
+            </form>
+    </div> 
+    
+    <div id="templatemo_top_dishes">
+ 
+     {{#cuisines}}
+    <ul>
+         
+      
+       	  <li><img src="{{url}}" alt="image" /></li>
+           <li> <h2>{{name}}({{area}})</h2></li>
+           <li><a href="comment?id={{name}}">Add Comment</a> </li>
+            <p>ingredients:</p>
+           </ul>
+             
+            <ul>
+               {{#each ingredients}}
+                <li>{{this}}</li>
+                {{/each}}
+            </ul>
+            
+         <p>Steps:</p>
+          
+          <ol>
+              {{#each steps}}
+              <li>{{this}}</li>
+           {{/each}}
+          </ol>
+            
+
+
+  {{/cuisines}}
+        <div class="cleaner">&nbsp;</div>
+    
+    </div> 
+    
+    <div id="templatemo_content">
+    	<span class="top"></span>
+        <div class="cleaner" style="background: #fff;">&nbsp;</div> 	
+    </div>
+
+
+<div id="templatemo_footer">
+    
+    	<a href="/">Home</a> | <a href="/contact">Contact Us</a><br />
+        Copyright © 2024 <a href="#"><strong>Tang Court</strong></a> 
+        </div>
+
+</div>
+</body>
+</html>

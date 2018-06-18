@@ -1,0 +1,35 @@
+h1 {
+    color: dimgray;
+    font-size: 3em;
+    
+    /* margin: 0 auto; */
+    /* width: 1600px; */
+}
+p {
+    font-size: 1em;
+}
+form {
+    margin: 0 auto;
+    width: 400px;
+    border: 1px solid #CCC;
+}
+input {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+button {
+    padding-left: 10px;
+    margin-left: .5em;
+}
+
+.success {
+    color: #28a745;
+}
+.failure {
+    color: #dc3545;
+}
+.error {
+    color: blue;
+}

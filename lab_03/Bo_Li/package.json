@@ -1,0 +1,19 @@
+{
+  "name": "lab_03",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bluebird": "^3.5.20",
+    "@types/node": "^9.4.1",
+    "bluebird": "^3.5.1",
+    "prompt-sync": "^4.1.5"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Dashboard</title>
+	<link rel="stylesheet" href="../public/stylesheets/style_zebra.css" type="text/css">
+     <script type="text/javascript" src="../public/javascripts/jquery-1.8.3.min.js"></script>
+<body>
+
+<div id="container">   
+
+	<table class="zebra">
+    <caption>cuisines management</caption>
+		<thead>
+        	<tr>
+				<th>Name</th>
+                <th>Pic url</th>
+				<th>Area</th>
+				<th>Ingredients</th>
+				<th>Steps</th>
+            </tr>
+		</thead>
+        
+        <tbody>
+            {{#cuisines}}
+            <form action="update" method="POST">
+        	<tr>
+               	<td><input name="cname" value="{{name}}" > </td>
+            <td><input name="url" value="{{url}}" readonly="readonly" ></td>
+                <td><input name="area" value="{{area}}" readonly="readonly" ></td>
+                <td><input name="ingre" value="{{ingredients}}"></td>
+                <td><input name="step" value="{{steps}}"></td>
+                <td><input  type="submit" value="update" /></td>
+                
+            </tr>
+          </form>
+           {{/cuisines}}
+        </tbody>
+        
+	</table>
+ 
+  <a href='/' style="color:#FDFEFE">back</a>
+  
+</body>
+</html>

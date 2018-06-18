@@ -1,0 +1,27 @@
+[
+    {
+        "user_name":"libo",
+        "cuisine_name": "Kung Pao chicken",
+        "comment":"Not hot, do not like peanuts."
+    },
+    {
+        "user_name":"libo",
+        "cuisine_name": "Mapo Tofu",
+        "comment":"One of my favoriate dishes!"
+    },
+    {
+        "user_name":"ezio",
+        "cuisine_name": "Fried Pork with Chilli",
+        "comment":"I love it, especiall the chilli."
+    },
+    {
+        "user_name":"ezio",
+        "cuisine_name": "Chop Bell Pepper Fish Head",
+        "comment":"Very delicious, but hard to cook."
+    },
+    {
+        "user_name":"yeyunfan",
+        "cuisine_name": "White Cut Chicken",
+        "comment":"Don't like yue cuisine at all."
+    }
+]
